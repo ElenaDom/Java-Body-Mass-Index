@@ -1,7 +1,7 @@
 public class BmiService {
-    public int calculate(int weight, int growth) {
+    public float calculate(float weight, float growth) {
 
-        int index = weight/growth;
+        float index = weight/(growth*growth);
         return index;
 
     }
